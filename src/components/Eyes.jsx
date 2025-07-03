@@ -38,7 +38,7 @@ const Eyes = () => {
 
   return (
     <div className="w-full h-screen overflow-hidden">
-      <div className="relative w-full h-full bg-center bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]">
+      <div data-scroll data-scroll-speed="-.4" className="relative w-full h-full bg-center bg-cover bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-scaled.jpg')]">
         <div className="absolute flex gap-10 h-96 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
           {/* Left Eye */}
           <div className="w-[15vw] flex items-center justify-center h-[15vw] rounded-full bg-zinc-100">
